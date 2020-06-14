@@ -1,0 +1,49 @@
+{
+	"type": "command",
+	"pools": [
+		{
+			"rolls": {
+				"min": 32,
+				"max": 128
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_beef"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_porkchop"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 16,
+				"max": 48
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:baked_potato"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cookie"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_carrot"
+				}
+			]
+		}
+	]
+}
