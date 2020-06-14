@@ -23,5 +23,7 @@ execute if score @s wheel_rng matches 18 as @p[tag=wheeltarget] run function the
 execute if score @s wheel_rng matches 19 as @p[tag=wheeltarget] run function thewheel:result/19
 execute if score @s wheel_rng matches 20 as @p[tag=wheeltarget] run function thewheel:result/20
 execute if score @s wheel_rng matches 21 as @p[tag=wheeltarget] run function thewheel:result/21
+execute if score @s wheel_rng matches 22 as @p[tag=wheeltarget] run function thewheel:result/22
+execute if score @s wheel_rng matches 23 as @p[tag=wheeltarget] run function thewheel:result/23
 
 tag @p[tag=wheeltarget] remove wheeltarget
