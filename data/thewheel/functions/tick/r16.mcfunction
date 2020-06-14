@@ -1,6 +1,6 @@
 scoreboard players add @a wheel_r16 0
 scoreboard players add @a[scores={wheel_r16=1..}] wheel_r16 1
-scoreboard players set @a[scores={wheel_r16=2401..}] wheel_r16 0
+scoreboard players set @a[scores={wheel_r16=2381..}] wheel_r16 0
 
 scoreboard players reset @a[scores={wheel_r16=0}] wheel_r16_j
 scoreboard players reset @a[scores={wheel_r16=0}] wheel_r16_w
