@@ -6,4 +6,4 @@ tellraw @a ["",{"text":"\u300cTHE WHEEL\u300d ","bold":true},{"selector":"@s","c
 execute as @a at @s run playsound minecraft:entity.elder_guardian.curse player @a
 
 # Run
-give @s minecraft:fishing_rod{display:{Name:'[{"text":"「","color":"dark_red","bold":true,"italic":false},{"text":"THE ROD","color":"red","bold":true,"italic":false},{"text":"」","color":"dark_red","bold":true,"italic":false}]',Lore:['{"text":"A blessing from THE WHEEL","color":"white","italic":false}']},Unbreakable:1b,Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:3s},{id:"minecraft:lure",lvl:3s}]} 1
+give @s minecraft:fishing_rod{display:{Name:'[{"text":"「","color":"dark_red","bold":true,"italic":false},{"text":"THE ROD","color":"red","bold":true,"italic":false},{"text":"」","color":"dark_red","bold":true,"italic":false}]',Lore:['{"text":"A blessing from THE WHEEL","color":"white","italic":false}']},Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:3s},{id:"minecraft:lure",lvl:3s},{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:mending",lvl:1s}]} 1
