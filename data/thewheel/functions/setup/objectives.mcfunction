@@ -1,6 +1,6 @@
 scoreboard objectives add wheel_anim dummy
 scoreboard objectives add wheel_cooldown dummy
-scoreboard objectives add wheel_counter dummy
+scoreboard objectives add wheel_counter dummy "THE WHEEL Spins"
 scoreboard objectives add wheel_rng dummy
 scoreboard objectives add wheel_timer dummy
 scoreboard objectives add wheel_xp dummy
