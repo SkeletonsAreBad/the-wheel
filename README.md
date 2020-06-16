@@ -25,6 +25,7 @@ Test your luck with THE WHEEL in this Minecraft datapack.
 -   "was jailed"
 -   "watch your head"
 -   "is getting raided"
+-   "has shifted the weather"
 
 ### Neutral
 
