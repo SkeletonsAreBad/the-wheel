@@ -11,6 +11,7 @@ Test your luck with THE WHEEL in this Minecraft datapack.
 -   "has vanished"
 -   "can now make concrete"
 -   "is feeling lucky"
+-   "found a coin"
 
 ### Negative
 
