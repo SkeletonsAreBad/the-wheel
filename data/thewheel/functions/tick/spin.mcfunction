@@ -87,8 +87,14 @@ execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=0}] at 
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=0}] at @s run setblock ~ ~-2 ~ minecraft:redstone_block
 
 # Anti-grief
-execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run gamemode adventure @a[gamemode=survival,distance=..13]
-execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run gamemode survival @a[gamemode=adventure,distance=13..15]
-execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run kill @e[type=minecraft:creeper,distance=..13]
-execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run kill @e[type=minecraft:tnt,distance=..13]
-execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run kill @e[type=minecraft:tnt_minecart,distance=..13]
+execute as @a[tag=wheelradius] unless entity @e[type=minecraft:armor_stand,tag=thewheel,distance=..13] run tag @s remove wheelradius
+execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run tag @a[distance=..13] add wheelradius
+gamemode adventure @a[tag=wheelradius,gamemode=survival]
+gamemode survival @a[tag=!wheelradius,gamemode=adventure]
+execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s as @e[type=minecraft:creeper,distance=..15] at @s run tp ^ ^1 ^-4
+execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run kill @e[type=minecraft:tnt,distance=..15]
+execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run kill @e[type=minecraft:tnt_minecart,distance=..15]
+execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run kill @e[type=minecraft:wither_skull,distance=..15]
+execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run kill @e[type=minecraft:fireball,distance=..15]
+execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run kill @e[type=minecraft:small_fireball,distance=..15]
+execute as @e[type=minecraft:armor_stand,tag=thewheel] at @s run kill @e[type=minecraft:dragon_fireball,distance=..15]

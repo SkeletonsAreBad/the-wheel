@@ -10,5 +10,4 @@ fill ~-1 ~30 ~-1 ~1 ~33 ~1 minecraft:glass
 fill ~ ~31 ~ ~ ~32 ~ minecraft:air
 effect give @s minecraft:mining_fatigue 120 200
 effect give @s minecraft:glowing 120 200
-gamemode survival @s[gamemode=adventure]
 tp @s ~ ~31 ~
