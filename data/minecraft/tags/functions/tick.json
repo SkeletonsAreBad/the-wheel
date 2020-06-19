@@ -3,5 +3,6 @@
 		"thewheel:tick/spin",
 		"thewheel:tick/r16",
 		"thewheel:tick/r26",
+		"thewheel:tick/r27"
 	]
 }

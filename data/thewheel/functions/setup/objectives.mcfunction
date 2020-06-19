@@ -13,3 +13,6 @@ scoreboard objectives add wheel_r16_w minecraft.custom:minecraft.walk_one_cm
 
 scoreboard objectives add wheel_r26_d deathCount
 scoreboard objectives add wheel_r26_k minecraft.custom:minecraft.player_kills
+
+scoreboard objectives add wheel_r27_d deathCount
+scoreboard objectives add wheel_r27_j minecraft.custom:minecraft.leave_game
