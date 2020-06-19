@@ -1,3 +1,7 @@
 {
-	"values": ["thewheel:tick/spin", "thewheel:tick/r16"]
+	"values": [
+		"thewheel:tick/spin",
+		"thewheel:tick/r16",
+		"thewheel:tick/r26",
+	]
 }

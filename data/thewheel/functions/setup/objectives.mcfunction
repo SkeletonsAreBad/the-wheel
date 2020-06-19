@@ -10,3 +10,6 @@ scoreboard players set $30 wheel_xp 30
 scoreboard objectives add wheel_r16 dummy
 scoreboard objectives add wheel_r16_j minecraft.custom:minecraft.jump
 scoreboard objectives add wheel_r16_w minecraft.custom:minecraft.walk_one_cm
+
+scoreboard objectives add wheel_r26_d deathCount
+scoreboard objectives add wheel_r26_k minecraft.custom:minecraft.player_kills
