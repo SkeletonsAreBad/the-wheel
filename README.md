@@ -27,6 +27,8 @@ Test your luck with THE WHEEL in this Minecraft datapack.
 -   "watch your head"
 -   "is getting raided"
 -   "has shifted the weather"
+-   "has a bounty"
+-   "started death-link"
 
 ### Neutral
 
