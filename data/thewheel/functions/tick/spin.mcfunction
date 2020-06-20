@@ -1,5 +1,5 @@
 # Scores
-execute as @a store result score @s wheel_xp run data get entity @s XpLevel
+execute as @a[tag=wheelradius] store result score @s wheel_xp run data get entity @s XpLevel
 scoreboard players add @e[type=minecraft:armor_stand,tag=thewheel] wheel_cooldown 0
 scoreboard players add @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_cooldown=1..}] wheel_cooldown 1
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_cooldown=36000..}] run tellraw @a ["",{"text":"\u300cTHE WHEEL\u300d ","bold":true},{"text":"Cooldown finished, reactivating THE WHEEL","color":"red"}]
@@ -25,7 +25,7 @@ execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=17,whee
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=17,wheel_timer=101..}] at @s run summon minecraft:firework_rocket ~-6 ~0.5 ~2 {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;11141120],FadeColors:[I;16733525]}]}}}}
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=17,wheel_timer=101..}] at @s run summon minecraft:firework_rocket ~-2 ~0.5 ~-6 {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;170],FadeColors:[I;5592575]}]}}}}
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=17,wheel_timer=101..}] at @s run summon minecraft:firework_rocket ~2 ~0.5 ~-6 {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;16755200],FadeColors:[I;16777045]}]}}}}
-execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=17,wheel_timer=101..}] at @s run function thewheel:result/rng
+execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=17,wheel_timer=101..}] at @s run function thewheel:calculate/rngres
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=17,wheel_timer=101..}] run scoreboard players set @s wheel_cooldown 1
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=17,wheel_timer=101..}] run scoreboard players set @s wheel_anim 0
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=17,wheel_timer=..101}] run scoreboard players set @s wheel_anim 1
