@@ -1,5 +1,5 @@
 setblock ~ ~-2 ~ minecraft:barrel
-execute store result score @s wheel_rng run loot insert ~ ~-2 ~ loot thewheel:rng
+execute store result score @s wheel_rng run loot insert ~ ~-2 ~ loot thewheel:rngres
 setblock ~ ~-2 ~ minecraft:iron_block
 
 execute if score @s wheel_rng matches 1 as @p[tag=wheeltarget] run function thewheel:result/1
