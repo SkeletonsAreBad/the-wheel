@@ -1,0 +1,17 @@
+{
+	"type": "command",
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 20
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone"
+				}
+			]
+		}
+	]
+}
