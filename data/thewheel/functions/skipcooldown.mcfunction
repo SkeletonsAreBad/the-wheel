@@ -1,0 +1,1 @@
+execute at @s run scoreboard players set @e[type=armor_stand,tag=thewheel,distance=..10] wheel_cooldown 36000
