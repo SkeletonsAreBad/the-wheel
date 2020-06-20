@@ -29,9 +29,11 @@ Test your luck with THE WHEEL in this Minecraft datapack.
 -   "has shifted the weather"
 -   "has a bounty"
 -   "started death-link"
+-   "was damned"
 
 ### Neutral
 
 -   "has been refunded"
 -   "horse"
 -   "has come to visit"
+-   "played a nice song"
