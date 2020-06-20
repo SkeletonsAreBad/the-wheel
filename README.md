@@ -30,6 +30,7 @@ Test your luck with THE WHEEL in this Minecraft datapack.
 -   "has a bounty"
 -   "started death-link"
 -   "was damned"
+-   "got new clothes"
 
 ### Neutral
 
@@ -37,3 +38,5 @@ Test your luck with THE WHEEL in this Minecraft datapack.
 -   "horse"
 -   "has come to visit"
 -   "played a nice song"
+-   "It's raining villagers"
+-   "summoned the slimes"
