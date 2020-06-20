@@ -1,5 +1,6 @@
 {
 	"values": [
+		"thewheel:tick/antigrief",
 		"thewheel:tick/spin",
 		"thewheel:tick/r16",
 		"thewheel:tick/r26",
