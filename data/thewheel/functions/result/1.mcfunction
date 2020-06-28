@@ -6,4 +6,4 @@ tellraw @a ["",{"text":"\u300cTHE WHEEL\u300d ","bold":true},{"selector":"@s","c
 execute as @a at @s run playsound minecraft:entity.elder_guardian.curse player @a
 
 # Run
-spreadplayers ~ ~ 5000 10000 false @s
+spreadplayers ~ ~ 10000 50000 false @s
