@@ -10,13 +10,13 @@ Test your luck with THE WHEEL in this Minecraft datapack.
 -   "has downgraded to 1.8"
 -   "has vanished"
 -   "can now make concrete"
--   "is feeling lucky"
+-   "is very healthy"
 -   "found a coin"
 
 ### Negative
 
 -   "has been sent far away"
--   "has unlocked rocket boots"
+-   "has unlocked sonic shoes"
 -   "is very hungry"
 -   "has displeased the wheel"
 -   "has made some new friends"
