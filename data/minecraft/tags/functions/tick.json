@@ -2,6 +2,7 @@
 	"values": [
 		"thewheel:tick/antigrief",
 		"thewheel:tick/spin",
+		"thewheel:tick/status",
 		"thewheel:tick/r16",
 		"thewheel:tick/r26",
 		"thewheel:tick/r27"
