@@ -7,4 +7,3 @@ execute as @a at @s run playsound minecraft:entity.elder_guardian.curse player @
 
 # Run
 weather thunder 1800
-time set night
