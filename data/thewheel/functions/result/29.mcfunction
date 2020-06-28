@@ -7,4 +7,4 @@ execute as @a at @s run playsound minecraft:entity.elder_guardian.curse player @
 
 # Run
 execute at @s in minecraft:the_nether run tp @s ~ ~ ~
-execute in minecraft:the_nether run spreadplayers 0 0 1000 10000 under 127 false SkeletonsAreBad
+execute in minecraft:the_nether run spreadplayers 0 0 1000 10000 under 127 false @s
