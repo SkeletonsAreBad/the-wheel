@@ -18,7 +18,7 @@ Test your luck with THE WHEEL in this Minecraft datapack.
 -   "has been sent far away"
 -   "has unlocked sonic shoes"
 -   "is very hungry"
--   "has displeased the wheel"
+-   "is high"
 -   "has made some new friends"
 -   "has been assigned the role: FARMER"
 -   "has a nice new hat"
