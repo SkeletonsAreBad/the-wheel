@@ -73,7 +73,7 @@ execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=1..2}] 
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=1}] at @s run playsound minecraft:block.note_block.hat player @a ~ ~ ~ 0.5 0.9
 
 # Detect button
-execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=0,wheel_cooldown=0}] at @s if block ~ ~ ~ minecraft:stone_button[powered=true] if score @p wheel_xp <= $30 wheel_xp run tellraw @p ["",{"text":"\u300cTHE WHEEL\u300d ","bold":true},{"text":"The spin cost is ","color":"red"},{"text":"30 LEVELS","color":"dark_red"}]
+execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=0,wheel_cooldown=0}] at @s if block ~ ~ ~ minecraft:stone_button[powered=true] if score @p wheel_xp < $30 wheel_xp run tellraw @p ["",{"text":"\u300cTHE WHEEL\u300d ","bold":true},{"text":"The spin cost is ","color":"red"},{"text":"30 LEVELS","color":"dark_red"}]
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=0,wheel_cooldown=0}] at @s if block ~ ~ ~ minecraft:stone_button[powered=true] if score @p wheel_xp >= $30 wheel_xp run tag @p add wheeltarget
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=0,wheel_cooldown=0}] at @s if block ~ ~ ~ minecraft:stone_button[powered=true] if entity @p[tag=wheeltarget] run function thewheel:calculate/rngloop
 execute as @e[type=minecraft:armor_stand,tag=thewheel,scores={wheel_anim=0,wheel_cooldown=0}] at @s if block ~ ~ ~ minecraft:stone_button[powered=true] if entity @p[tag=wheeltarget] run scoreboard players add @p[tag=wheeltarget] wheel_counter 1
